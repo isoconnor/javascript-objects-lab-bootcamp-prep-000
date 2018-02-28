@@ -19,3 +19,11 @@ function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
   
 }
 
+function deleteFromObjectWithKeyAndValue(object,key,value){
+  
+  var recipes2 = Object.assign({},recipes,{[key]: value });
+  
+  delete recipes2;
+  
+  return recipes2;
+}
