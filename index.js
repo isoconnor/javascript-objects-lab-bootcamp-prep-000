@@ -23,7 +23,7 @@ function deleteFromObjectByKey(object,key){
   
   var recipes2 = Object.assign({},recipes,{[key]: value });
   
-  delete recipes2;
+  delete recipes2.key;
   
   return recipes2;
 }
