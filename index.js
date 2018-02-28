@@ -11,3 +11,8 @@ function updateObjectWithKeyAndValue(object,key,value){
   
   return recipes2;
 }
+
+destructivelyUpdateObjectWithKeyAndValue(object,key,value){
+  
+  
+}
