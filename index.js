@@ -5,7 +5,7 @@ function updateObjectWithKeyAndValue(object,key,value){
   
   Object.assign({},recipes,{[key]: value });
   
-  return recipes
+  return recipes;
 }
 
 
