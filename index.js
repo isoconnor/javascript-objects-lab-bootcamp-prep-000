@@ -3,9 +3,9 @@ var recipes ={};
 
 function updateObjectWithKeyAndValue(object,key,value){
   
-  var recipes = Object.assign({},recipes,{[key]: value });
+  var recipes2 = Object.assign({},recipes,{[key]: value });
   
-  return recipes
+  return recipes2
 }
 
 
